@@ -1,0 +1,780 @@
+something wrong in page15
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page22
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page15
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page22
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page15
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page22
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=政治
+title=不會沒有小卷！ 台電要推深澳「小卷煙囪」成觀光地標
+site_url=http://news.ltn.com.tw/news/politics/breakingnews/2431153
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 132, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 91, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 22, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page16
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page23
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=政治
+title=呂秀蓮嗆發文讓陳菊「終身受傷」 蘇貞昌：不敢評論
+site_url=http://news.ltn.com.tw/news/politics/breakingnews/2431194
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 132, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 91, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 22, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=生活
+title=提早交卷想回試場被阻…會考考生罵髒話 數學恐不計分
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2431228
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 132, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 91, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 22, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page17
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page24
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=亂傳前女友裸照辯手機遺失 渣男被法官一招識破
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2431208
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 132, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 91, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 22, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page25
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page18
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=遲來的母親節禮物！獨生子離家一個多月 終於平安回家
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2431298
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 132, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 91, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 22, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=體育
+title=中職Live》廖健富適時安打 象11：2猿
+site_url=http://sports.ltn.com.tw/news/breakingnews/2431112
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 132, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 91, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 41, in composing_3
+    create_time = soup.select('.c_time')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page19
+category=玩咖
+title=攀岩新手免驚！帥氣教練帶你征服龍洞
+site_url=http://playing.ltn.com.tw/article/9707
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page26
+category=玩咖
+title=染紅天際！高雄湖內「番茄會社」鳳凰花盛開
+site_url=http://playing.ltn.com.tw/article/9709
+Traceback (most recent call last):
+  File "C:\Users\alex8\Desktop\crawler\LtnRealtimeCrawler.py", line 131, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
