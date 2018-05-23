@@ -60,7 +60,7 @@
 	}
 	$sql .="ORDER BY create_time DESC ";
 	$sql .="LIMIT 0,50";
-	// echo "$sql"."LIMIT 0,20";
+	echo "$sql";
 
 	$result = mysqli_query($link,$sql) or die("Error with SQL query 1");
 	while($row = mysqli_fetch_assoc($result)){

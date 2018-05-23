@@ -17,10 +17,11 @@
     <script src="bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-TW.min.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/all.js"></script>
-    <title>輿情蒐集系統</title>   
+    <title>輿情蒐集系統</title>
 </head>
 
 <body>
+
 	<!-- sidebar start -->
     <nav id="sidebar">
         <div class="sidebar-header">
@@ -35,9 +36,9 @@
 	            <li>
 	            	<a href="#newsMenu" data-toggle="collapse" aria-expanded="false">新聞網</a>
 	                <ul class="list-unstyled collapse" id="newsMenu">
-	                    <li><a href="#">蘋果即時新聞</a></li>
-	                    <li><a href="#">中時電子報</a></li>
-	                    <li><a href="#">自由時報電子報</a></li>
+	                    <li><a href="?source=apple">蘋果即時新聞</a></li>
+	                    <li><a href="?source=chinatimes">中時電子報</a></li>
+	                    <li><a href="?source=ltn">自由時報電子報</a></li>
 	                </ul>
 	            </li>
 	            <li>
@@ -61,7 +62,8 @@
 		<div class="search">
 			<form action="" class="form-inline" onsubmit="return false;">
 				<div>
-					<div class="row text-right">
+					<div class="row">
+						<h3 id="subtitle" class="col-sm-9 mr-auto">輿情搜尋系統</h3>
 						<span class="glyphicon glyphicon-plus" title="搜尋設定""></span>
 						<input type="text" name="keyword" class="form-control">
 			    		<button id=search class="btn btn-primary btn-large" onclick="searchClick();">搜尋</button>
@@ -187,6 +189,25 @@
 		</div>
     </div>
     <!-- content end -->
-
 </body>
+    <?php
+		if(isset($_GET['source'])){ 
+			switch($_GET['source']){
+				case 'apple':
+					$source = "蘋果";
+					echo "<script>$('#subtitle').append('>蘋果即時新聞')</script>";
+					break;
+				case 'chinatimes':
+					$source = "中時";
+					echo "<script>$('#subtitle').append('>中時電子報')</script>";
+					break;
+				case 'ltn':
+					$source = "自由";
+					echo "<script>$('#subtitle').append('>自由時報電子報')</script>";
+					break;
+			}
+
+			echo "<script>searchNewsSource('".$source."');</script>";
+		}
+	?>
 </html>
