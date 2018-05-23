@@ -3,9 +3,15 @@ import config as cfg
 import time
 import traceback
 import logging
+import os
 import requests as req
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup as bs
+from os import system
+system("title AppleCrawler") #set cmd title
+
+if(os.path.exists("./log/apple.log")):
+	os.remove("./log/apple.log")
 
 def writeLogging(page=0, category="", title="", url=""):
 	print('something wrong in page',page)
@@ -84,6 +90,8 @@ while(True):
 					# print(view)
 					# print(site_url)
 				except:
+					if(not title):
+						title = ""
 					writeLogging(page=page, title=title, url=site_url)
 					time.sleep(10)
 

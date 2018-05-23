@@ -3,9 +3,15 @@ import config as cfg
 import time
 import traceback
 import logging
+import os
 import requests as req
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup as bs
+from os import system
+system("title LtnRealtimeCrawler") #set cmd title
+
+if(os.path.exists("./log/ltn.log")):
+	os.remove("./log/ltn.log")
 
 def writeLogging(page=0, category="", title="", url=""):
 	print('something wrong in page',page)
@@ -148,6 +154,8 @@ while(True):
 					# print(city)
 
 				except:
+					if(not title):
+						title=""
 					writeLogging(page=page, category=category ,title=title , url=site_url)
 					time.sleep(10)
 			page += 1
