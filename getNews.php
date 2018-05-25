@@ -83,7 +83,7 @@
 			'category_name' => $row['category_name'],
 			'title' => $row['title'],
 			'create_time' => date("Y/m/d",$row['create_time']),
-			'site_urle' => $row['site_url'],
+			'site_url' => $row['site_url'],
 			'color' => $row['category_color'],
 		 );
 
