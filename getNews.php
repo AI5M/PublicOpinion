@@ -1,9 +1,7 @@
 <?php
 	require('connDB.inc.php');
-
 	$sql = "SELECT * From news_info ";
 	$hasCondition = false;
-
 	if(isset($_POST['source'])){
 		$source = join("','",$_POST['source']);
 		$sql .= "WHERE(";
@@ -58,10 +56,20 @@
 		// echo(date("Y/m/d",$startDate));
 		// echo(date("Y/m/d",$endDate));
 	}
-	$sql .="ORDER BY create_time DESC ";
-	$sql .="LIMIT 0,50";
-	echo "$sql";
 
+	$result = mysqli_query($link,$sql) or die("Error with SQL query 1");
+	$total = mysqli_num_rows($result);
+	$pageSize = 50;
+	$startPage = ($_POST['page'])*$pageSize;
+	$totalPage = ceil($total/$pageSize); //总页数
+
+	$arr['total'] = $total;
+	$arr['pageSize'] = $pageSize;
+	$arr['totalPage'] = $totalPage;
+
+	$sql .="ORDER BY create_time DESC ";
+	$sql .="LIMIT $startPage,$pageSize";
+	// echo "$sql";
 	$result = mysqli_query($link,$sql) or die("Error with SQL query 1");
 	while($row = mysqli_fetch_assoc($result)){
 		$rsource = $row['source'];
@@ -70,13 +78,23 @@
 		$rcreate_time = date("Y/m/d",$row['create_time']);
 		$rsite_url = $row['site_url'];
 		$rcolor = $row['category_color'];
-		echo "<tr>";
-		echo "<td><h2>$rsource</h2></td>";
-		echo "<td><h3 style='background-color: $rcolor;'>$rcategory</h3></td>";
-		echo "<td><h1><a href='$rsite_url'>$rtitle</a></h1></td>";
-		echo "<td><h2>$rcreate_time</h2></td>";
-		echo "</tr>";
+		$arr['list'][] = array(
+		 	'source' => $row['source'],
+			'category_name' => $row['category_name'],
+			'title' => $row['title'],
+			'create_time' => date("Y/m/d",$row['create_time']),
+			'site_urle' => $row['site_url'],
+			'color' => $row['category_color'],
+		 );
+
+		// echo "<tr>";
+		// echo "<td><h2>$rsource</h2></td>";
+		// echo "<td><h3 style='background-color: $rcolor;'>$rcategory</h3></td>";
+		// echo "<td><h1><a href='$rsite_url'>$rtitle</a></h1></td>";
+		// echo "<td><h2>$rcreate_time</h2></td>";
+		// echo "</tr>";
 	}
+	echo json_encode($arr);
 
 	/*news_info	 =	CREATE VIEW new_info AS 
 					SELECT '蘋果' as source, category_name, title, create_time, site_url, category_color

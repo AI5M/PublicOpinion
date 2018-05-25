@@ -66,7 +66,7 @@
 						<h3 id="subtitle" class="col-sm-9 mr-auto">輿情搜尋系統</h3>
 						<span class="glyphicon glyphicon-plus" title="搜尋設定""></span>
 						<input type="text" name="keyword" class="form-control">
-			    		<button id=search class="btn btn-primary btn-large" onclick="searchClick();">搜尋</button>
+			    		<button id=search class="btn btn-primary btn-large" onclick="getData();">搜尋</button>
 					</div>
 				</div>
 
@@ -180,12 +180,13 @@
 		</div>
 
 		<div class="result">
+			<div id="loading"></div>
 			<table class="table table-striped table-hover">
 				<tbody>
 
 				</tbody>
 			</table>
-			<div id="test"></div>
+			<div id="pageCount"></div>
 		</div>
     </div>
     <!-- content end -->
@@ -206,8 +207,9 @@
 					echo "<script>$('#subtitle').append('>自由時報電子報')</script>";
 					break;
 			}
-
-			echo "<script>searchNewsSource('".$source."');</script>";
+			echo "<script>setSource('".$source."');</script>";
+		}else{
+			echo "<script>getData();</script>";
 		}
 	?>
 </html>
