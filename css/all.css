@@ -140,6 +140,10 @@ ul ul a {
     padding: 1px 10px; 
 }
 
+.table>tbody>tr>td{
+    padding: 0 8px;
+}
+
 tbody h1{
     font-weight:900;
     font-size: 18px;
