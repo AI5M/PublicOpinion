@@ -206,8 +206,9 @@
 					echo "<script>$('#subtitle').append('>自由時報電子報')</script>";
 					break;
 			}
-
 			echo "<script>searchNewsSource('".$source."');</script>";
+		}else{
+			echo "<script>searchClick();</script>";
 		}
 	?>
 </html>
