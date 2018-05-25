@@ -31,7 +31,7 @@
 		<div class="sidebar-body">
 	        <ul class="list-unstyled components">
 	            <li class="active">
-	                <a href="#">總覽</a>
+	                <a href="http://120.125.85.104/project/PublicOpinion/">總覽</a>
 	            </li>
 	            <li>
 	            	<a href="#newsMenu" data-toggle="collapse" aria-expanded="false">新聞網</a>
