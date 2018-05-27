@@ -60,7 +60,7 @@ def parse_article(board_name, board_class,getPage):
 				href = div.find('a')['href']
 				link = PTT_URL + href
 				article_id = re.sub('\.html', '', href.split('/')[-1])
-				print(link,article_id)
+				# print(link,article_id)
 				parse(link, article_id, board_name, board_class)
 			except:
 				pass
