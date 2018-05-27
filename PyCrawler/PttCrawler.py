@@ -17,9 +17,9 @@ conn.connect() #開始連接
 
 PTT_URL = 'https://www.ptt.cc'
 hotboards = 'https://www.ptt.cc/bbs/hotboards.html'
-page_count = 50
+# page_count = 1
 
-def getChildBoard(link):
+def getChildBoard(link,getPage=1):
 	board_count = 0
 	result = requests.get(url=link, cookies={'over18':'1'})
 	soup = BeautifulSoup(result.text,'html.parser')
@@ -62,8 +62,7 @@ def parse_article(board_name, board_class,page_count):
 				link = PTT_URL + href
 				article_id = re.sub('\.html', '', href.split('/')[-1])
 				print(link,article_id)
-				parse(link, article_id, board_name, board_class)
-				break
+				# parse(link, article_id, board_name, board_class)
 			except:
 				pass
 
@@ -170,5 +169,7 @@ def parse(link, article_id, board, board_class, timeout=3):
 	# print('date',date)
 	# print('msgs', messages)
 	# print ('mscounts', message_count)
+
+getChildBoard(hotboards,50)
 while True:
-	getChildBoard(hotboards)
+	getChildBoard(hotboards,10)
