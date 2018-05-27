@@ -72,7 +72,8 @@
 
 import time
 # create_time = soup.select('.reporter time')[0].text.strip()
-create_time = "2018-05-18 22:26"
-create_time = time.strptime(create_time,"%Y-%m-%d %H:%M")
+create_time = ""
+create_time = time.strptime(create_time,"%a %b %d %H:%M:%S %Y")
+# create_time = time.strptime(create_time,"%Y-%m-%d %H:%M")
 print(create_time)
 
