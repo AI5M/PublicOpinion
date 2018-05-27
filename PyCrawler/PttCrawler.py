@@ -44,6 +44,7 @@ def getChildBoard(link,getPage=1):
 	return board_count
 
 def parse_article(board_name, board_class,getPage):
+	print(board_name)
 	page = 0
 	url = PTT_URL + '/bbs/' + board_name + '/index.html'
 	while(page<getPage and url != PTT_URL + '/bbs/' + board_name + '/index1.html'):
