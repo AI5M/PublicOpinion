@@ -1,7 +1,1006 @@
-something wrong in page13
+something wrong in page8
+category=話題
+title=贈獎倒數》只到5月25日母親節大放送 萬元鍋具等你抽
+site_url=http://hottopic.chinatimes.com/20180521002720-260816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page10
+category=話題
+title=店員講西班牙文讓他好不爽 美國男怒嗆要檢舉：滾出我國家
+site_url=http://hottopic.chinatimes.com/20180518002627-260816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180525003846-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180525002041-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180524002645-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180524001686-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180523003877-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180523001668-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180522002166-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180522002075-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180521001825-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180521001635-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180518003628-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180518003145-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180518002623-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180517001630-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180517000008-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180516003415-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180516002312-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180515003623-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180515003363-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180514003216-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180514002627-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180513001332-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180513000006-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180513000005-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180512002568-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180512002376-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180512002210-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180511002442-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180511002352-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180511002109-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180511001997-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180510004040-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180510002659-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180510002556-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180509004108-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180509002919-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180509001860-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180509001786-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180508003933-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180507003214-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180507003182-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180507001222-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180504003792-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180504003674-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180503001786-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180502001371-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180430001351-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180430001262-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180429000003-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180427003149-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180427002956-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180427002454-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180427002310-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180426004074-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180426003948-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180426002464-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180426001776-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180425002766-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180425002655-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180424003083-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180424002380-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180424001998-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180423001578-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180423001406-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180420002993-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180420002385-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180420002178-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180420002112-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180420001854-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180419003525-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180418004670-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180418003083-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180418002988-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180418002880-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180418002431-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180418000002-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180417001679-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180416002124-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180416001700-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180416001243-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180414001359-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180414000002-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180413001537-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180412004169-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180412001903-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180411003532-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180411003209-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180411002034-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180410004365-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180410001887-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180409002924-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180409002129-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180409001486-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180408001431-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180405002785-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180405002285-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180403003190-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180403002778-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180402002973-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180401002211-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180331003999-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180330002957-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180330002058-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180330001714-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180329004459-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180328003438-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180328003349-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180328002060-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=校園
+title=吳茂昆嗆下台與否 賴揆定奪
+site_url=http://campus.chinatimes.com/20180328001643-262301
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page41
 category=體育
-title=NBA》戰鬥力爆棚 詹姆斯俾倪群雄
-site_url=http://www.chinatimes.com/realtimenews/20180508001878-260403
+title=UBA》「抬頭挺胸走出去」 錢薇娟率北市大挑戰冠軍
+site_url=http://www.chinatimes.com/realtimenews/20180324003545-260403
 Traceback (most recent call last):
   File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
     (self.host, self.port), self.timeout, **extra_kw)
@@ -32,7 +1031,7 @@ Traceback (most recent call last):
     conn = self._new_conn()
   File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
     self, "Failed to establish a new connection: %s" % e)
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000020D54B217B8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001DDFE52C9E8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。
 
 During handling of the above exception, another exception occurred:
 
@@ -43,12 +1042,12 @@ Traceback (most recent call last):
     _stacktrace=sys.exc_info()[2])
   File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\util\retry.py", line 388, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.chinatimes.com', port=80): Max retries exceeded with url: /realtimenews/20180508001878-260403 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D54B217B8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。',))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.chinatimes.com', port=80): Max retries exceeded with url: /realtimenews/20180324003545-260403 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DDFE52C9E8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。',))
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\MCU\Desktop\crawler\ChinatimesCrawler.py", line 82, in <module>
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 82, in <module>
     result = req.get(site_url).text
   File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\api.py", line 72, in get
     return request('get', url, params=params, **kwargs)
@@ -60,5 +1059,528 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\adapters.py", line 508, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.chinatimes.com', port=80): Max retries exceeded with url: /realtimenews/20180508001878-260403 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D54B217B8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。',))
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.chinatimes.com', port=80): Max retries exceeded with url: /realtimenews/20180324003545-260403 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DDFE52C9E8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。',))
+
+something wrong in page54
+category=體育
+title=影》關公義釋黃忠！UFC拳手展現體育精神
+site_url=http://www.chinatimes.com/realtimenews/20180221001656-260403
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1107, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1152, in _send_request
+    self.endheaders(body)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1103, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 934, in _send_output
+    self.send(msg)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 877, in send
+    self.connect()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001DDFF735EB8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.chinatimes.com', port=80): Max retries exceeded with url: /realtimenews/20180221001656-260403 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DDFF735EB8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 82, in <module>
+    result = req.get(site_url).text
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='www.chinatimes.com', port=80): Max retries exceeded with url: /realtimenews/20180221001656-260403 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DDFF735EB8>: Failed to establish a new connection: [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。',))
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/skincare/20180527001615-330202
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/perfume-nails/20180526002964-330205
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180525003832-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180525003731-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180525003718-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180525003701-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180525003681-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/art-design/20180525003493-330404
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/astrology/20180525003324-330602
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/delicacy/20180525003273-330502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/delicacy/20180525003013-330502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/astrology/20180525003025-330602
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/deco/20180525002844-330504
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/deco/20180525002790-330504
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/astrology/20180525002714-330602
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/jewelry-watch/20180525002658-330104
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/car/20180525002537-330802
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/men-style/20180525002373-330801
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/travel/20180525002284-330503
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/skincare/20180525001761-330202
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/makeup-hair/20180525001681-330201
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/travel/20180523003643-330503
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/fitness/20180523003271-330204
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/people/20180523002062-330302
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/astrology/20180523002239-330602
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180521003173-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/skincare/20180524004033-330202
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/movie-drama/20180525001332-330401
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180525001240-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/jewelry-watch/20180524004530-330104
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/travel/20180524004338-330503
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/outfit/20180524003663-330101
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180524003945-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180524003794-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://girl.styletc.com/lover/20180524003636-360502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://girl.styletc.com/lover/20180524003357-360502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/delicacy/20180524003188-330502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/perfume-nails/20180524002729-330205
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/delicacy/20180524002173-330502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/fitness/20180524001710-330204
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/stylish/20180521003140-330501
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180518003463-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/stylish/20180522002357-330501
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/delicacy/20180522002124-330502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/outfit/20180518003874-330101
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/relationship/20180523003671-330601
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/makeup-hair/20180523003571-330201
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://girl.styletc.com/lover/20180523003522-360502
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/accessory/20180523003460-330103
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/skincare/20180523003363-330202
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=樂時尚
+title=LPGA》徐薇淩Volvik退至T19 中國馮珊珊躍榜首
+site_url=http://www.styletc.com/art-design/20180523003119-330404
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\ChinatimesCrawler.py", line 85, in <module>
+    title = soup.select('hgroup h1')[0].text.strip()
+IndexError: list index out of range
 

@@ -17,7 +17,6 @@ conn.connect() #開始連接
 
 PTT_URL = 'https://www.ptt.cc'
 hotboards = 'https://www.ptt.cc/bbs/hotboards.html'
-# page_count = 1
 
 def getChildBoard(link,getPage=1):
 	board_count = 0
@@ -32,7 +31,7 @@ def getChildBoard(link,getPage=1):
 				board_class = child.find(class_='board-class').text
 				board_title = child.find(class_='board-title').text
 				board_count += 1
-				parse_article(board_name, board_class, page_count)
+				parse_article(board_name, board_class, getPage)
 				#print(child_link,board_name,board_class,board_title)
 			else:
 				board_name = child.find(class_='board-name').text
@@ -44,10 +43,10 @@ def getChildBoard(link,getPage=1):
 			pass
 	return board_count
 
-def parse_article(board_name, board_class,page_count):
+def parse_article(board_name, board_class,getPage):
 	page = 0
 	url = PTT_URL + '/bbs/' + board_name + '/index.html'
-	while(page<page_count and url != PTT_URL + '/bbs/' + board_name + '/index1.html'):
+	while(page<getPage and url != PTT_URL + '/bbs/' + board_name + '/index1.html'):
 		page +=1
 		resp = requests.get(url, cookies={'over18': '1'})
 		if resp.status_code != 200:
@@ -62,7 +61,7 @@ def parse_article(board_name, board_class,page_count):
 				link = PTT_URL + href
 				article_id = re.sub('\.html', '', href.split('/')[-1])
 				print(link,article_id)
-				# parse(link, article_id, board_name, board_class)
+				parse(link, article_id, board_name, board_class)
 			except:
 				pass
 
