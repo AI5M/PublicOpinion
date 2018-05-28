@@ -106,6 +106,7 @@ conn = connDB.MyConnecter() #連接資料庫物件
 conn.connect() #開始連接
 
 defwebsite = 'http://news.ltn.com.tw/list/breakingnews/all/'
+MaxPage = 5
 while(True):
 	result = req.get(defwebsite).text
 	soup = bs(result,'html.parser')
@@ -113,7 +114,7 @@ while(True):
 	total_page = int(total_page[total_page.rfind('/')+1:])
 	page = 1
 	# total_page = 1
-	while(page < total_page+1):
+	while(page < total_page+1 and page<=MaxPage):
 		try:
 			print('page:',page)
 
@@ -152,6 +153,7 @@ while(True):
 					# print(create_time)
 					# print(site_url)
 					# print(city)
+					time.sleep(1)
 
 				except:
 					if(not title):
@@ -159,6 +161,7 @@ while(True):
 					writeLogging(page=page, category=category ,title=title , url=site_url)
 					time.sleep(10)
 			page += 1
+			time.sleep(30)
 		except:
 			logging.info('**********page wrong**********')
 			writeLogging(page=page)

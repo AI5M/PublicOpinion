@@ -1,7 +1,7 @@
 something wrong in page1
 category=
-title=¡i¤¤Â¾¾ÔªG¡j®ç·á³Î³ï³Ó·à¡@®«±N¾î±½¥S§Ì
-site_url=https://tw.entertainment.appledaily.com/realtime/20180527/1362185/
+title=ªL«T³Ç¼é¬ïLevi's ¡@IG¬¯·sÅw
+site_url=https://tw.news.appledaily.com/local/realtime/20180528/1361548/
 Traceback (most recent call last):
   File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\AppleCrawler.py", line 62, in <module>
     title = soup.select('hgroup h1')[0].text.strip()

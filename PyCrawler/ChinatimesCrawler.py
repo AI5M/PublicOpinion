@@ -45,6 +45,7 @@ board_dic = dict(政治='http://www.chinatimes.com/politic/total/',生活='http:
 #特殊網站: 財經(有內版), 旺車(只抓新聞),校園(只抓新消息)
 #特殊網站: 旅遊,國際,言論,話題,校園, 文章網址是相對路徑
 
+MaxPage = 2
 while(True):
 	timestamp = time.time()
 
@@ -59,7 +60,7 @@ while(True):
 			total_page = 1
 
 		page = 1
-		while(page < total_page+1):
+		while(page < total_page+1 and page<=MaxPage):
 			try:
 				print('page:',page)
 
@@ -108,6 +109,7 @@ while(True):
 						# print(create_time)
 						# print(author)
 						# print(site_url)
+						time.sleep(1)
 					except:
 						if(not title):
 							title=""
@@ -116,6 +118,7 @@ while(True):
 						continue
 
 				page += 1
+				time.sleep(30)
 			except:
 				logging.info('**********page wrong**********')
 				writeLogging(page=page)

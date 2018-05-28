@@ -32,12 +32,12 @@ category_dict = cfg.category_dict #category_id
 conn = connDB.MyConnecter() #連接資料庫物件
 conn.connect() #開始連接
 
-MAXPAGES = 100
+MAXPAGES = 5
 while(True):
 	# list declaration
 	page = 1
 	timestamp = time.time()
-	while(page<MAXPAGES):
+	while(page<=MAXPAGES):
 		try:
 			print('page:',page)
 
@@ -89,6 +89,7 @@ while(True):
 					# print(create_time)
 					# print(view)
 					# print(site_url)
+					time.sleep(1)
 				except:
 					if(not title):
 						title = ""
@@ -96,13 +97,14 @@ while(True):
 					time.sleep(10)
 
 			page += 1 #下一頁
+			time.sleep(30)
 		except:
 			logging.info('**********page wrong**********')
 			writeLogging(page=page)
 			logging.info('**********page wrong**********')
 			time.sleep(10)
 	print('cost time :',round(time.time()-timestamp,2),'second')
-	MAXPAGES = 3 #第一次過後只取前3頁
+	MAXPAGES = 5 #第一次過後只取前3頁
 
 
 # titleList = []

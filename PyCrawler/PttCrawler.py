@@ -69,6 +69,7 @@ def parse_article(board_name, board_class,getPage):
 		prev_page = soup.select('.btn.wide')[1]['href']
 		url = PTT_URL + prev_page
 		# print(url)
+		time.sleep(10)
 
 def parse(link, article_id, board, board_class, timeout=3):
 	result = requests.get(url=link, cookies={'over18': '1'})
@@ -169,7 +170,8 @@ def parse(link, article_id, board, board_class, timeout=3):
 	# print('date',date)
 	# print('msgs', messages)
 	# print ('mscounts', message_count)
+	time.sleep(1)
 
-getChildBoard(hotboards,50)
+# getChildBoard(hotboards,50)
 while True:
 	getChildBoard(hotboards,10)
