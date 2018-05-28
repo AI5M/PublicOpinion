@@ -1,18 +1,14 @@
 <?php
 	require('connDB.inc.php');
-	$sql = "SELECT * From news_info ";
+
+	$sql = "SELECT * FROM ptt ";
 	$hasCondition = false;
-	if(isset($_POST['source'])){
-		$source = join("','",$_POST['source']);
-		$sql .= "WHERE(";
-		$sql .= "source IN('".$source."'))";
-		$hasCondition = true;
-	}
-	if(isset($_POST['category'])){
-		$category = join("','",$_POST['category']);
-		if($hasCondition) $sql .= "AND(" ;
-		else $sql .= "WHERE(";
-		$sql .= "category_name in ('".$category."'))";
+	if(isset($_POST['board'])){
+		$board = $_POST['board'];
+		if($board != '不限'){
+			$sql .= "WHERE (board_name='".$board."')";
+			$hasCondition = true;
+		}
 	}
 
 	if(isset($_POST['keyword']) && 	trim($_POST['keyword']) != ''){
@@ -25,7 +21,7 @@
 		} 
 		$sql .= ")";
 	}
-	
+
 	if(isset($_POST['date']) && $_POST['date']!=0){
 		$today = strtotime(date("Y/m/d"));
 		$tomorrow = strtotime("+1 day", $today);
@@ -53,8 +49,6 @@
 				break;
 		}
 		$sql .= "create_time BETWEEN $startDate AND $endDate) ";
-		// echo(date("Y/m/d",$startDate));
-		// echo(date("Y/m/d",$endDate));
 	}
 
 	$result = mysqli_query($link,$sql) or die("Error with SQL query 1");
@@ -69,22 +63,19 @@
 
 	$sql .="ORDER BY create_time DESC ";
 	$sql .="LIMIT $startPage,$pageSize";
+
 	// echo "$sql";
+
 	$result = mysqli_query($link,$sql) or die("Error with SQL query 1");
 	while($row = mysqli_fetch_assoc($result)){
-		$rsource = $row['source'];
-		$rcategory = $row['category_name'];
-		$rtitle = $row['title'];
-		$rcreate_time = date("Y/m/d",$row['create_time']);
-		$rsite_url = $row['site_url'];
-		$rcolor = $row['category_color'];
 		$arr['list'][] = array(
-		 	'source' => $row['source'],
-			'category_name' => $row['category_name'],
+		 	'board' => $row['board_name'],
+			'board_class' => $row['board_class'],
 			'title' => $row['title'],
+			'push' => $row['push'],
+			'shush' => $row['shush'],
 			'create_time' => date("Y/m/d",$row['create_time']),
-			'site_url' => $row['site_url'],
-			'color' => $row['category_color'],
+			'url' => $row['url'],
 		 );
 
 		// echo "<tr>";
@@ -95,18 +86,4 @@
 		// echo "</tr>";
 	}
 	echo json_encode($arr);
-
-	/*news_info	 =	CREATE VIEW new_info AS 
-					SELECT '蘋果' as source, category_name, title, create_time, site_url, category_color
-					From apple, article_category 
-					WHERE (apple.category_id = article_category.category_id) 
-					UNION ALL
-					SELECT '中時' as source, category_name, title, create_time, site_url, category_color
-					From chinatimes, article_category 
-					WHERE (chinatimes.category_id = article_category.category_id) 
-					UNION ALL
-					SELECT '自由' as source, category_name, title, create_time, site_url, category_color
-					From ltn_realtime, article_category 
-					WHERE (ltn_realtime.category_id = article_category.category_id)*/	
 ?>
-

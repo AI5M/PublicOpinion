@@ -124,7 +124,7 @@ function getData(page=1){
 			$("tbody").empty();//清空
 		},
 		success: function(text) {
-			console.log(text);
+			// console.log(text);
 			source = text.source;
 			category_name = text.category_name;
 			title = text.title;
@@ -159,26 +159,83 @@ function setSource(source){
 	$("input[name=source]:checked").each(function() {
 		if($(this).val() != source){
 			$(this).attr('checked', false);
+			$(this).attr('disabled', true);
 		}
 	});
 	getData();
 }
 
-function searchNewsSource(source,page=1){
-	var sourceGroup = new Array();
-	sourceGroup.push(source);
+function getPtt(page=1){	    
 	$.ajax({
 		method: "POST",
-		url: "getNews.php",
-		async: false, //同步化
+		url: "getPtt.php",
+		// async: false, //同步化
+		dataType:"json",
 		data: {
-			source: sourceGroup,
+			board : $('.board option:selected').text(),
+  			date: $('.date option:selected').val(),
+  			startDate: $("input[name=startDate]").val(),
+  			endDate: $("input[name=endDate]").val(),
+  			keyword: $("input[name=keyword]").val(),
+  			page: page-1
+		},
+		beforeSend:function(){
+			$('.option').hide();
+			$('.glyphicon-plus').removeClass("glyphicon-minus");
+			$("#loading").append("<p id='loading'>loading...</li>");
+			$("#pageCount").empty();
+			$("tbody").empty();//清空
 		},
 		success: function(text) {
-			console.log(text)
-			$("tbody").html(text);
+			// $('tbody').html(text);
+			console.log(text);
+			total = text.total; //總數
+			pageSize = text.pageSize; //每頁顯示數量
+			curPage = page; //當前頁
+			totalPage = text.totalPage; //總頁數
+			var row="";
+			var list = text.list;
+			row += "<tr>";
+			row += "<td><h2>看板</h2></td>";
+			row += "<td><h2>類別</h2></td>";
+			row += "<td><h2>標題</h2></td>";
+			row += "<td><h2>推</h2></td>";
+			row += "<td><h2>噓</h2></td>";
+			row += "<td><h2>日期</h2></td>";
+			$.each(list,function(index,array){ //遍历json数据列
+				row += "<tr>";
+				row += "<td><h2>"+array['board']+"</h2></td>";
+				row += "<td><h2>"+array['board_class']+"</h3></td>";
+				row += "<td><h1><a href='"+array['url']+"'>"+array['title']+"</a></h1></td>";
+				row += "<td><h2>"+array['push']+"</h2></td>";
+				row += "<td><h2>"+array['shush']+"</h2></td>";
+				row += "<td><h2>"+array['create_time']+"</h2></td>";
+				row += "</tr>";
+			});
+			$("tbody").append(row);
+		},
+		complete:function(){ //生成分页条
+			$("#loading").empty("<p id='loading'>loading...</li>");//显示加载动画
+			getPageBar();
 		}
 	});
-	$('.option').hide();
-	$('.glyphicon-plus').removeClass("glyphicon-minus");
 }
+
+// function searchNewsSource(source,page=1){
+// 	var sourceGroup = new Array();
+// 	sourceGroup.push(source);
+// 	$.ajax({
+// 		method: "POST",
+// 		url: "getNews.php",
+// 		async: false, //同步化
+// 		data: {
+// 			source: sourceGroup,
+// 		},
+// 		success: function(text) {
+// 			console.log(text)
+// 			$("tbody").html(text);
+// 		}
+// 	});
+// 	$('.option').hide();
+// 	$('.glyphicon-plus').removeClass("glyphicon-minus");
+// }
