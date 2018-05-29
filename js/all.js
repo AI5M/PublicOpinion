@@ -47,7 +47,7 @@ $(".page-link").on('click',function(){
 	}
 });
 
-function getPageBar(){
+function getPageBar(source='news'){
 	var pageBar='<ul class="pagination">';
 	if(curPage < 1) curPage=1;
 	if(curPage > totalPage) curPage=totalPage;
@@ -57,7 +57,10 @@ function getPageBar(){
 		pageBar+='<span aria-hidden="true">&laquo;</span></a></li>';
 	}else{
 		pageBar+='<li class="page-item">';
-		pageBar+='<a class="page-link" aria-label="Previous" onclick="getData('+(curPage-1)+');">';
+		if(source == 'ptt')
+			pageBar+='<a class="page-link" aria-label="Previous" onclick="getPtt('+(curPage-1)+');">';
+		else
+			pageBar+='<a class="page-link" aria-label="Previous" onclick="getData('+(curPage-1)+');">';
 		pageBar+='<span aria-hidden="true">&laquo;</span></a></li>';
 	}
 
@@ -70,7 +73,10 @@ function getPageBar(){
 			}
 			else{
 				pageBar+='<li class="page-item">';
-				pageBar+='<a class="page-link" onclick="getData('+i+');">'+i+'</a></li>';
+				if(source == 'ptt')
+					pageBar+='<a class="page-link" onclick="getPtt('+i+');">'+i+'</a></li>';
+				else
+					pageBar+='<a class="page-link" onclick="getData('+i+');">'+i+'</a></li>';
 			}
 			pagecount++;
 		}
@@ -81,7 +87,10 @@ function getPageBar(){
 		pageBar+='<span aria-hidden="true">&raquo;</span></a></li>';
 	}else{
 		pageBar+='<li class="page-item">';
-		pageBar+='<a class="page-link" aria-label="Previous" onclick="getData('+(curPage+1)+');">';
+		if(source == 'ptt')
+			pageBar+='<a class="page-link" aria-label="Previous" onclick="getPtt('+(curPage+1)+');">';
+		else
+			pageBar+='<a class="page-link" aria-label="Previous" onclick="getData('+(curPage+1)+');">';
 		pageBar+='<span aria-hidden="true">&raquo;</span></a></li>';
 	}
 
@@ -154,7 +163,6 @@ function getData(page=1){
 	});
 }
 
-
 function setSource(source){
 	$("input[name=source]:checked").each(function() {
 		if($(this).val() != source){
@@ -170,7 +178,7 @@ function getPtt(page=1){
 		method: "POST",
 		url: "getPtt.php",
 		// async: false, //同步化
-		dataType:"json",
+		// dataType:"json",
 		data: {
 			board : $('.board option:selected').text(),
   			date: $('.date option:selected').val(),
@@ -187,8 +195,8 @@ function getPtt(page=1){
 			$("tbody").empty();//清空
 		},
 		success: function(text) {
-			// $('tbody').html(text);
-			console.log(text);
+			$('tbody').html(text);
+			// console.log(text);
 			total = text.total; //總數
 			pageSize = text.pageSize; //每頁顯示數量
 			curPage = page; //當前頁
@@ -212,7 +220,7 @@ function getPtt(page=1){
 				row += "<td><h2>"+array['create_time']+"</h2></td>";
 				row += "</tr>";
 			});
-			$("tbody").append(row);
+			// $("tbody").append(row);
 		},
 		complete:function(){ //生成分页条
 			$("#loading").empty("<p id='loading'>loading...</li>");//显示加载动画

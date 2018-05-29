@@ -1,7 +1,7 @@
 <?php
 	require('connDB.inc.php');
 
-	$sql = "SELECT * FROM ptt ";
+	$sql = "SELECT 'board_name','board_class','title','push','shush','create_time','url' FROM ptt ";
 	$hasCondition = false;
 	if(isset($_POST['board'])){
 		$board = $_POST['board'];
