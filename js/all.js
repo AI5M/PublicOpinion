@@ -178,7 +178,7 @@ function getPtt(page=1){
 		method: "POST",
 		url: "getPtt.php",
 		// async: false, //同步化
-		// dataType:"json",
+		dataType:"json",
 		data: {
 			board : $('.board option:selected').text(),
   			date: $('.date option:selected').val(),
@@ -195,8 +195,8 @@ function getPtt(page=1){
 			$("tbody").empty();//清空
 		},
 		success: function(text) {
-			$('tbody').html(text);
-			// console.log(text);
+			// $('tbody').html(text);
+			console.log(text);
 			total = text.total; //總數
 			pageSize = text.pageSize; //每頁顯示數量
 			curPage = page; //當前頁
@@ -220,7 +220,7 @@ function getPtt(page=1){
 				row += "<td><h2>"+array['create_time']+"</h2></td>";
 				row += "</tr>";
 			});
-			// $("tbody").append(row);
+			$("tbody").append(row);
 		},
 		complete:function(){ //生成分页条
 			$("#loading").empty("<p id='loading'>loading...</li>");//显示加载动画
