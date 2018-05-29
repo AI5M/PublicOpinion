@@ -158,7 +158,7 @@ function getData(page=1){
 		},
 		complete:function(){ //生成分页条
 			$("#loading").empty("<p id='loading'>loading...</li>");//显示加载动画
-			getPageBar();
+			getPageBar('news');
 		}
 	});
 }
@@ -224,7 +224,7 @@ function getPtt(page=1){
 		},
 		complete:function(){ //生成分页条
 			$("#loading").empty("<p id='loading'>loading...</li>");//显示加载动画
-			getPageBar();
+			getPageBar('ptt');
 		}
 	});
 }
