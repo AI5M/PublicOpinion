@@ -1,9 +1,13 @@
 <div>
-	<div class="row">
-		<h3 id="subtitle" class="col-sm-9 mr-auto">輿情搜尋系統</h3>
+	<div class="row text-right">
+		<h3 id="subtitle" class="col-sm-5 text-left">輿情搜尋系統</h3>
 		<span class="glyphicon glyphicon-plus" title="搜尋設定""></span>
 		<input type="text" name="keyword" class="form-control">
-		<button id=search class="btn btn-primary btn-large" onclick="getData();">搜尋</button>
+		<button id=search class="btn btn-primary" onclick="getData();">搜尋</button>
+
+		<div class="row">
+			<button id=download class="btn btn-defualt" onclick="download_csv();">下載查詢結果</button>
+		</div>
 	</div>
 </div>
 
@@ -80,34 +84,7 @@
     			<div class="panel-heading">
     				<h4>類別:</h4>	
     			</div>
-				
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="社會" checked />社會
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="國際" checked />國際
-				</label>							
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="政治" checked />政治
-				</label><br>
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="生活" checked />生活
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="體育" checked />體育
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="財經" checked />財經
-				</label><br>
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="論壇" checked />論壇
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="副刊"  checked />副刊
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" name="category" value="3C" checked />3C
-				</label><br>
+				<?php include_once('getNewsCategory.php') ?>
     		</div>
 		</div>
 	</div>

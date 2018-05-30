@@ -1,9 +1,13 @@
 <div>
-	<div class="row">
-		<h3 id="subtitle" class="col-sm-9 mr-auto">輿情搜尋系統</h3>
+	<div class="row text-right">
+		<h3 id="subtitle" class="col-sm-5 text-left">輿情搜尋系統</h3>
 		<span class="glyphicon glyphicon-plus" title="搜尋設定""></span>
 		<input type="text" name="keyword" class="form-control">
-		<button id=search class="btn btn-primary btn-large" onclick="getPtt();">搜尋</button>
+		<button id=search class="btn btn-primary" onclick="getPtt();">搜尋</button>
+
+		<div class="row">
+			<button id=download class="btn btn-defualt" onclick="download_csv();">下載查詢結果</button>
+		</div>
 	</div>
 </div>
 

@@ -172,6 +172,6 @@ def parse(link, article_id, board, board_class, timeout=3):
 	# print ('mscounts', message_count)
 	time.sleep(1)
 
-# getChildBoard(hotboards,50)
+getChildBoard(hotboards,50)
 while True:
 	getChildBoard(hotboards,10)

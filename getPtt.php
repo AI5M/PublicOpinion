@@ -1,25 +1,26 @@
 <?php
-	require('connDB.inc.php');
-
+	session_start();
+	require_once('connDB.inc.php');
 	$sql = "SELECT board_name,board_class,title,push,shush,create_time,url FROM ptt ";
+	$condition = "";
 	$hasCondition = false;
 	if(isset($_POST['board'])){
 		$board = $_POST['board'];
 		if($board != '不限'){
-			$sql .= "WHERE (board_name='".$board."')";
+			$condition .= "WHERE (board_name='".$board."')";
 			$hasCondition = true;
 		}
 	}
 
 	if(isset($_POST['keyword']) && 	trim($_POST['keyword']) != ''){
 		$keyword = explode(" ", $_POST['keyword']);
-		if($hasCondition) $sql .= "AND(";
-		else $sql .= "WHERE(";
+		if($hasCondition) $condition .= "AND(";
+		else $condition .= "WHERE(";
 		for ($i=0; $i<count($keyword); $i++) { 
-			if($i>0) $sql .= "OR";
-			$sql .= "(title LIKE '%".$keyword[$i]."%')";
+			if($i>0) $condition .= "OR";
+			$condition .= "(title LIKE '%".$keyword[$i]."%')";
 		} 
-		$sql .= ")";
+		$condition .= ")";
 	}
 
 	if(isset($_POST['date']) && $_POST['date']!=0){
@@ -27,8 +28,8 @@
 		$tomorrow = strtotime("+1 day", $today);
 
 		$date = $_POST['date'];
-		if($hasCondition) $sql .= "AND(";
-		else $sql .= "WHERE(";
+		if($hasCondition) $condition .= "AND(";
+		else $condition .= "WHERE(";
 		switch ($date) {
 			case '1':
 				$startDate = $today;
@@ -48,9 +49,10 @@
 				$endDate = strtotime("+1 day", $endDate);
 				break;
 		}
-		$sql .= "create_time BETWEEN $startDate AND $endDate) ";
+		$condition .= "create_time BETWEEN $startDate AND $endDate) ";
 	}
 
+	$sql .= $condition;
 	$result = mysqli_query($link,$sql) or die("Error with SQL query 1");
 	$total = mysqli_num_rows($result);
 	$pageSize = 50;
@@ -62,10 +64,11 @@
 	$arr['totalPage'] = $totalPage;
 
 	$sql .="ORDER BY create_time DESC ";
+	$_SESSION['source'] = "ptt";
+	$_SESSION['condition'] = $condition;
 	$sql .="LIMIT $startPage,$pageSize";
 
 	// echo "$sql";
-
 	$result = mysqli_query($link,$sql) or die("Error with SQL query 1");
 	while($row = mysqli_fetch_assoc($result)){
 		$arr['list'][] = array(
@@ -74,7 +77,7 @@
 			'title' => $row['title'],
 			'push' => $row['push'],
 			'shush' => $row['shush'],
-			'create_time' => date("Y/m/d",$row['create_time']),
+			'create_time' => date("Y/m/d",$row['create_time']-8*3600),
 			'url' => $row['url'],
 		 );
 

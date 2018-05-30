@@ -23,7 +23,7 @@
 <body>
 
 	<!-- sidebar start -->
-    <nav id="sidebar">
+    <nav id="sidebar" disabled>
         <div class="sidebar-header">
             <h2>輿情蒐集系統</h2>
         </div>

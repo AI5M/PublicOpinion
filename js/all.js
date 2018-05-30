@@ -93,8 +93,8 @@ function getPageBar(source='news'){
 			pageBar+='<a class="page-link" aria-label="Previous" onclick="getData('+(curPage+1)+');">';
 		pageBar+='<span aria-hidden="true">&raquo;</span></a></li>';
 	}
-
 	pageBar+='</ul>';
+	pageBar+="<li>共 "+total+" 筆</li>";
 	$("#pageCount").html(pageBar);
 }
 
@@ -131,15 +131,11 @@ function getData(page=1){
 			$("#loading").append("<p id='loading'>loading...</li>");
 			$("#pageCount").empty();
 			$("tbody").empty();//清空
+			$("#search").attr('disabled',true);
+			setTimeout("$('#search').attr('disabled',false)",400);
 		},
 		success: function(text) {
 			// console.log(text);
-			source = text.source;
-			category_name = text.category_name;
-			title = text.title;
-			create_time = text.create_time,
-			site_url = text.site_url;
-			color = text.category_color;
 			total = text.total; //總數
 			pageSize = text.pageSize; //每頁顯示數量
 			curPage = page; //當前頁
@@ -193,10 +189,12 @@ function getPtt(page=1){
 			$("#loading").append("<p id='loading'>loading...</li>");
 			$("#pageCount").empty();
 			$("tbody").empty();//清空
+			$("#search").attr('disabled',true);
+			setTimeout("$('#search').attr('disabled',false)",400);
 		},
 		success: function(text) {
 			// $('tbody').html(text);
-			console.log(text);
+			// console.log(text);
 			total = text.total; //總數
 			pageSize = text.pageSize; //每頁顯示數量
 			curPage = page; //當前頁
@@ -227,6 +225,10 @@ function getPtt(page=1){
 			getPageBar('ptt');
 		}
 	});
+}
+
+function download_csv(){
+	window.open('download.php', 'download');
 }
 
 // function searchNewsSource(source,page=1){

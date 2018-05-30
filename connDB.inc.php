@@ -1,7 +1,7 @@
 <?php 
 	$username = 'ken-alex';
   	$password = '0000';
-	$host = 'localhost';
+	$host = '127.0.0.1';
   	$database = 'public_opinion';
 	$link = mysqli_connect($host,$username,$password,$database)
 						or die('Error with MySQL connection');//連接伺服器

@@ -1,0 +1,2083 @@
+something wrong in page1
+category=政治
+title=八里污水廠被爆妥善率造假 北市府：算法不同
+site_url=http://news.ltn.com.tw/news/politics/breakingnews/2441486
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=社會
+title=蝶戀花肇事司機遭求償 17歲女兒獨自出庭這樣說…
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2441493
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=社會
+title=終結最長連摃 大樂透8億頭獎1注獨得 獎落彰化
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2441572
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=國際
+title=抓到了！日本巡邏機驚見 中國、北韓船隻疑海上走私
+site_url=http://news.ltn.com.tw/news/world/breakingnews/2441554
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=國際
+title=中年男性多吃瘦肉卡健康？ 芬蘭研究：心臟衰竭風險增43％
+site_url=http://news.ltn.com.tw/news/world/breakingnews/2441641
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=社會
+title=中職》返台首役優質先發 史博威：還有進步空間
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2441569
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1198, in getresponse
+    response.begin()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\socket.py", line 576, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1198, in getresponse
+    response.begin()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\socket.py", line 576, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 134, in <module>
+    result = req.get(site_url).text
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None))
+
+something wrong in page3
+category=生活
+title=彭佳慧20年來只會唱歌 堅強意志讓她攀上事業巔峰
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2441510
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1107, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1152, in _send_request
+    self.endheaders(body)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 1103, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 934, in _send_output
+    self.send(msg)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\http\client.py", line 877, in send
+    self.connect()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000023F41286320>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='news.ltn.com.tw', port=80): Max retries exceeded with url: /news/life/breakingnews/2441510 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F41286320>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 134, in <module>
+    result = req.get(site_url).text
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MCU\AppData\Local\Programs\Python\Python35\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='news.ltn.com.tw', port=80): Max retries exceeded with url: /news/life/breakingnews/2441510 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023F41286320>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+something wrong in page1
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=被搜索陰影揮之不去 傳小潘潘患恐慌症、連夜搬回娘家
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2441678
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=生活
+title=歐美模式預測：6月恐雙颱夾台灣 西南季風爆發引大量降雨
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2441689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=財經
+title=台股盤前》國際政經情勢影響 台股恐拉回整理
+site_url=http://news.ltn.com.tw/news/business/breakingnews/2441702
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=財經
+title=台股盤前》國際政經情勢影響 台股恐拉回整理
+site_url=http://news.ltn.com.tw/news/business/breakingnews/2441702
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=國際
+title=破解行李損毀之謎！ 一段影片讓你秒懂
+site_url=http://news.ltn.com.tw/news/world/breakingnews/2441705
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=體育
+title=MLB》大谷翔平「惡魔指叉」精華影片  美網友直呼噁（影音）
+site_url=http://sports.ltn.com.tw/news/breakingnews/2441717
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 47, in composing_3
+    create_time = soup.select('.c_time')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=台大女左大腿尋獲 檢警考慮開挖化糞池找內臟
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2441747
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=止咳偏方多 小心，越吃越傷身
+site_url=http://playing.ltn.com.tw/article/9792
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=政治
+title=ETC抓國道超速？交通部：尚未規劃
+site_url=http://news.ltn.com.tw/news/politics/breakingnews/2441871
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=生活
+title=地方喜事！台南學甲圖書館「誠品化」完工啟用
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2441978
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】45元就吃得到！東京米其林御用麵包在台限時上市
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=汽車
+title=跨界休旅熱潮還沒結束！2 款重量級新車上市時間已公布
+site_url=http://auto.ltn.com.tw/news/10157
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 81, in composing_7
+    create_time = soup.select('.con_writer')[0].select('span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=國父紀念館是得意作！「建築詩人」王大閎辭世，經典設計還包括...
+site_url=http://playing.ltn.com.tw/article/7603
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=國際
+title=開打前先停機！ 德國教練下令「世足期間禁止啪啪啪」
+site_url=http://news.ltn.com.tw/news/world/breakingnews/2442111
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=體育
+title=NBA》火箭要組新三巨頭？ 美媒爆：保羅準備招募詹皇
+site_url=http://sports.ltn.com.tw/news/breakingnews/2442181
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 47, in composing_3
+    create_time = soup.select('.c_time')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page5
+category=財經
+title=林伯豐提5點建議 顧立雄幽默回應
+site_url=http://news.ltn.com.tw/news/business/breakingnews/2442073
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page5
+category=財經
+title=林伯豐提5點建議 顧立雄幽默回應
+site_url=http://news.ltn.com.tw/news/business/breakingnews/2442073
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=政治
+title=黃曙光出席美太平洋司令交接？  國防部長語帶保留...
+site_url=http://news.ltn.com.tw/news/politics/breakingnews/2442275
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關,去迪士尼一定要住迪士尼酒店的4大原因!
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=生活
+title=通霄電廠輸電線路跳脫  苗栗通苑區7萬戶大停電
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2442365
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=社會
+title=前夫再婚她不爽 誣告新妻教唆殺人判賠15萬
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442314
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=3包商未浚深漁港詐領千萬 基市官員護航收賄百萬被羈押
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442280
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=生活
+title=外埔綠能生態園區9月試營運 結合花博開放參觀
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2442422
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page5
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=通勤族快看！記者實測「跳蛙公車」自創專屬上班路線這樣搭
+site_url=http://playing.ltn.com.tw/article/9816
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=飼料油當食用油！黑心油源頭郭定 判刑9年半定讞
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442407
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page5
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=跟米奇拍照免排隊、遊樂設施快速通關，一定要住香港迪士尼酒店的4大原因！
+site_url=http://playing.ltn.com.tw/article/9820
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=生活
+title=喜迎花博遊客 月眉糖廠景觀綠美化改善開工
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2442457
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=小偷橫行八里？不只住家遭監控 門牌還被做記號
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442471
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=偷機車躲警狂逃 拖鞋掉路邊被循線逮捕
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442505
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page2
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=體育
+title=韓職Live》王維中單局2守備失誤 NC恐龍 2：4 韓華鷹
+site_url=http://sports.ltn.com.tw/news/breakingnews/2442416
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 47, in composing_3
+    create_time = soup.select('.c_time')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page3
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=政治
+title=被問是否辭立委？ 盧秀燕先批林佳龍：要不要迴避呢
+site_url=http://news.ltn.com.tw/news/politics/breakingnews/2442520
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page4
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=駁江欽良「抄家」控訴！投檢：證據到哪裡 就辦到哪裡
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442624
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=社會
+title=駁江欽良「抄家」控訴！投檢：證據到哪裡 就辦到哪裡
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442624
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page5
+category=玩咖
+title=【美食情報站】五月天阿信潮牌x出前一丁美味聯名！東京米其林御用麵包45元限時開搶
+site_url=http://playing.ltn.com.tw/article/9689
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 138, in <module>
+    category_id = category_dict[category]
+KeyError: '玩咖'
+
+something wrong in page1
+category=生活
+title=行車視野盲點怕怕！小車後視鏡怎麼調 專家說話了…
+site_url=http://news.ltn.com.tw/news/life/breakingnews/2442570
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=國際
+title=龐貝遺址震撼新發現 古城男子遭巨石削去上半身慘死
+site_url=http://news.ltn.com.tw/news/world/breakingnews/2442347
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=政治
+title=苗栗大停電 國民黨嘉義縣長參選人吳育仁痛批民進黨無能
+site_url=http://news.ltn.com.tw/news/politics/breakingnews/2442685
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=社會
+title=詐欺集團車手GG！ 重判6年4月
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442619
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=體育
+title=高球》南台灣挑戰賽 職業新手邱瀚霆奪冠
+site_url=http://sports.ltn.com.tw/news/breakingnews/2442762
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 47, in composing_3
+    create_time = soup.select('.c_time')[0].text.strip()
+IndexError: list index out of range
+
+something wrong in page1
+category=社會
+title=星光歌手撞死闖紅燈美商  去拉麵店當學徒賺2000萬賠償金
+site_url=http://news.ltn.com.tw/news/society/breakingnews/2442775
+Traceback (most recent call last):
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 139, in <module>
+    content,create_time = ClassifyBoard(category,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 97, in ClassifyBoard
+    return getFunction.get(boardname, composing_1)(boardname,soup)
+  File "D:\xampp\htdocs\project\PublicOpinion\PyCrawler\LtnRealtimeCrawler.py", line 28, in composing_1
+    create_time = soup.select('.text span')[0].text.strip()
+IndexError: list index out of range
+
